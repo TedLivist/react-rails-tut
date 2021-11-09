@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -15,7 +14,7 @@ class App extends React.Component {
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element="Hello! Home" />
-            <Route path="/hello" element={<HelloWorld greeting="Friend"/>} />
+            <Route path="/hello" element={<HelloWorld greeting="Friend........"/>} />
           </Routes>
         </BrowserRouter>
       </Provider>
